@@ -20,13 +20,14 @@
 ;; Maintainer: Kavindu Shehan <kavishen1025@gmail.com>
 ;; Last Updated: 2024-06-26
 ;; This is a (hela) transliteration mapping for a standard US-English keyboard
-;; (qwerty)
+;; (qwerty) 
+;; https://github.com/KSDeshappriya/SinhalaKeyboard--Hela--TransliterationScheme
 
 
 (input-method si hela)
 
 (description "Sinhala (hela) transliteration input method:
-  <http://>"
+  <https://github.com/KSDeshappriya/SinhalaKeyboard--Hela--TransliterationScheme>"
 )
 
 (title "සි (Hela Transliteration)")
