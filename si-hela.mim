@@ -1,0 +1,148 @@
+;; si-hela.mim -- Sinhala Keyboard (Hela) Transliteration keymap
+;; Copyright (C) 2024-2026 Kavindu Shehan <kavishen1025@gmail.com>
+
+;; This program is free software; you can redistribute it and/or
+;; modify it under the terms of the GNU General Public License
+;; as published by the Free Software Foundation; either version 2
+;; of the License, or (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program; if not, write to the Free Software
+;; Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA  02110-1301, USA.
+
+;; m17n Keymap file for Sinhala (Sri Lanka) (2024-06-25)
+;; Maintainer: Kavindu Shehan <kavishen1025@gmail.com>
+;; Last Updated: 2024-06-26
+;; This is a (hela) transliteration mapping for a standard US-English keyboard
+;; (qwerty)
+
+
+(input-method si hela)
+
+(description "Sinhala (hela) transliteration input method:
+  <http://>"
+)
+
+(title "සි (Hela Transliteration)")
+
+(map
+ (consonants
+  ("k" "ක්")		; 0x0d9a - alpapraana kayanna (ka)
+  ("kh" "ඛ්")		; 0x0d9b - mahaapraana kayanna (kha)
+  ("g" "ග්")		; 0x0d9c - alpapraana gayanna (ga)
+  ("gh" "ඝ්")		; 0x0d9d - mahaapraana gayanna (gha)
+  ("X" "ඞ්")		; 0x0d9e - kantaja naasikyaya (Xa)
+  ("zg" "ඟ්")		; 0x0d9f - sanyaka gayanna (zga)
+  ("ch" "ච්")		; 0x0da0 - alpapraana cayanna (cha)
+  ("chh" "ඡ්")		; 0x0da1 - mahaapraana cayanna (chha)
+  ("j" "ජ්")		; 0x0da2 - alpapraana jayanna (ja)
+  ("jH" "ඣ්")		; 0x0da3 - mahaapraana jayanna (jHa)
+  ("zk" "ඤ්")		; 0x0da4 - taaluja naasikyaya (zka)
+  ("zh" "ඥ්")		; 0x0da5 - taaluja sanyooga naasikyaya (zha)
+  ("zj" "ඦ්")		; 0x0da6 - sanyaka jayanna (zja)
+  ("t" "ට්")		; 0x0da7 - alpapraana ttayanna (ta)
+  ("T" "ඨ්")		; 0x0da8 - mahaapraana ttayanna (Ta)
+  ("d" "ඩ්")		; 0x0da9 - alpapraana ddayanna (da)
+  ("D" "ඪ්")		; 0x0daa - mahaapraana ddayanna (Da)
+  ("N" "ණ්")		; 0x0dab - muurdhaja nayanna (nna)
+  ("zd" "ඬ්")		; 0x0dac - sanyaka ddayanna (zda)
+  ("th" "ත්")		; 0x0dad - alpapraana tayanna (tha)
+  ("thh" "ථ්")		; 0x0dae - mahaapraana tayanna (thha)
+  ("dh" "ද්")		; 0x0daf - alpapraana dayanna (dha)
+  ("dhh" "ධ්")		; 0x0db0 - mahaapraana dayanna (dhha)
+  ("n" "න්")		; 0x0db1 - dantaja nayanna (na)
+  ("zdh" "ඳ්")		; 0x0db3 - sanyaka dayanna (zdha)
+  ("p" "ප්")		; 0x0db4 - alpapraana payanna (pa)
+  ("ph" "ඵ්")		; 0x0db5 - mahaapraana payanna (pha)
+  ("b" "බ්")		; 0x0db6 - alpapraana bayanna (ba)
+  ("bh" "භ්")		; 0x0db7 - mahaapraana bayanna (bha)
+  ("m" "ම්")		; 0x0db8 - mayanna (ma)
+  ("B" "ඹ්")		; 0x0db9 - amba bayanna (Ba)
+  ("y" "ය්")		; 0x0dba - yayanna (ya)
+  ("r" "ර්")		; 0x0dbb - rayanna (ra)
+  ("l" "ල්")		; 0x0dbd - dantaja layanna (la)
+  ("v" "ව්")		; 0x0dc0 - vayanna (va)
+  ("sh" "ශ්")		; 0x0dc1 - taaluja sayanna (sha)
+  ("S" "ෂ්")		; 0x0dc2 - muurdhaja sayanna (Sa)
+  ("s" "ස්")		; 0x0dc3 - dantaja sayanna (sa)
+  ("h" "හ්")		; 0x0dc4 - hayanna (ha)
+  ("L" "ළ්")		; 0x0dc5 - muurdhaja layanna (lla)
+  ("f" "ෆ්")		; 0x0dc6 - fayanna (fa)
+ )
+
+ (independent
+  ("a" "අ")		; 0x0d85 - ayanna (a)
+  ("aa" "ආ")		; 0x0d86 - aayanna (aa)
+  ("A" "ඇ")		; 0x0d87 - aeyanna (A)
+  ("AA" "ඈ")		; 0x0d88 - aeeyanna (AA)
+  ("i" "ඉ")		; 0x0d89 - iyanna (i)
+  ("ii" "ඊ")		; 0x0d8a - iiyanna (ii)
+  ("u" "උ")		; 0x0d8b - uyanna (u)
+  ("uu" "ඌ")		; 0x0d8c - uuyanna (uu)
+  ("R" "ඍ")		; 0x0d8d - iruyanna (iru)
+  ("Ru" "ඎ")		; 0x0d8e - iruuyanna (iruu)
+  ("LU" "ඏ")		; 0x0d8f - iluyanna (ilu)
+  ("LUU" "ඐ")		; 0x0d90 - iluuyanna (iluu)
+  ("e" "එ")		; 0x0d91 - eyanna (e)
+  ("ee" "ඒ")		; 0x0d92 - eeyanna (ee)
+  ("ai" "ඓ")		; 0x0d93 - aiyanna (ai)
+  ("o" "ඔ")		; 0x0d94 - oyanna (o)
+  ("oo" "ඕ")		; 0x0d95 - ooyanna (oo)
+  ("au" "ඖ")		; 0x0d96 - auyanna (au)
+  ("x" "ං")		; 0x0d82 - anusvaraya (anusvara)
+  ("H" "ඃ")		; 0x0d83 - visargaya (visarga)
+  ((A-.) "෴")		; 0x0df4 - kunddaliya (punctuation)
+  ((G-.) "෴")		; 0x0df4 - kunddaliya (punctuation)
+  ;; Shift-space and Alt-space
+  ((S-\ ) " ")		; 0x00a0 - no-break space
+  ((A-\ ) "‌")		; 0x200c - ZWNJ
+  ((G-\ ) "‌")		; 0x200c - ZWNJ
+ )
+
+ (dependent
+  ("a" (delete @-))	; (a)
+  ("aa" (delete @-) "ා")	; 0x0dcf - aela-pilla (aa)
+  ("A" (delete @-) "ැ")	; 0x0dd0 - ketti aeda-pilla (A)
+  ("AA" (delete @-) "ෑ")	; 0x0dd1 - diga aeda-pilla (AA)
+  ("i" (delete @-) "ි")	; 0x0dd2 - ketti is-pilla (i)
+  ("ii" (delete @-) "ී")	; 0x0dd3 - diga is-pilla (ii)
+  ("u" (delete @-) "ු")	; 0x0dd4 - ketti paa-pilla (u)
+  ("uu" (delete @-) "ූ")	; 0x0dd6 - diga paa-pilla (uu)
+  ("ru" (delete @-) "ෘ")	; 0x0dd8 - gaetta-pilla (r)
+  ("ruu" (delete @-) "ෲ")	; 0x0df2 - diga gaetta-pilla (rr)
+  ("lU" (delete @-) "ෟ")	; 0x0ddf - gayanukitta (l)
+  ("lUU" (delete @-) "ෳ")	; 0x0df3 - diga gayanukitta (ll)
+  ("e" (delete @-) "ෙ")	; 0x0dd9 - kombuva (e)
+  ("ee" (delete @-) "ේ")	; 0x0dda - diga kombuva (ee)
+  ("ai" (delete @-) "ෛ")	; 0x0ddb - kombu deka (ai)
+  ("o" (delete @-) "ො")	; 0x0ddc - kombuva haa aela-pilla (o)
+  ("oo" (delete @-) "ෝ")	; 0x0ddd - kombuva haa diga aela-pilla (oo)
+  ("au" (delete @-) "ෞ")	; 0x0dde - kombuva haa gayanukitta (au)
+  ("q" (delete @-) "්‍")		; 0x0dca,0x200d - join - conjunct letters cons 0DCA ZWJ cons
+  ("Q" (delete @-) "‍්")		; 0x200d,0x0dca - touch - cons ZWJ 0DCA cons
+ )
+
+ (rakyan
+  ("r" (delete @-) "්‍ර්")		; 0x0dca,0x200d,0x0dbb - rakaaranshaya
+  ("y" (delete @-) "්‍ය්")		; 0x0dca,0x200d,0x0dba - yansaya
+ )
+
+)
+
+(state
+ (init
+  (consonants (shift second))
+  (independent)
+ )
+ (second
+  (consonants)
+  (dependent (shift init))
+  (rakyan)
+ )
+)
