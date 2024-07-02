@@ -73,7 +73,7 @@ This (Hela) transliteration scheme is only for typing Sinhala words using a stan
 
 ---
 
-## User Guide: on Linux(deb/ubuntu)
+## User Guide: on Linux (Debian/Ubuntu and Fedora)
 
 Follow these steps to set up and use the `si-hela.mim` Sinhala transliteration keymap on your Linux system:
 
@@ -81,9 +81,18 @@ Follow these steps to set up and use the `si-hela.mim` Sinhala transliteration k
 Ensure you have the `si-hela.mim` file available on your system. If not, download [si-trans.mim (m17n)](./si-hela.mim) or obtain it from the source where it's provided.
 
 ### 2. Install the `ibus-m17n` Package
-IBus (Intelligent Input Bus) is an input framework for Linux OS, and `ibus-m17n` integrates IBus with the M17N library for multilingual text processing. Install it using the following command:
+IBus (Intelligent Input Bus) is an input framework for Linux OS, and `ibus-m17n` integrates IBus with the M17N library for multilingual text processing.
+
+#### On Debian/Ubuntu:
+Install it using the following command:
 ```sh
 sudo apt-get install ibus-m17n
+```
+
+#### On Fedora:
+Install it using the following command:
+```sh
+sudo dnf install ibus-m17n
 ```
 
 ### 3. Copy the `si-hela.mim` File
