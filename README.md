@@ -1,5 +1,7 @@
 # Sinhala Keyboard (Hela) Transliteration Scheme
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/KSDeshappriya/SinhalaKeyboard--Hela--TransliterationScheme)
+
 The "Sinhala Keyboard (Hela) Transliteration Scheme" provides a comprehensive guide for typing Sinhala characters using a standard QWERTY keyboard. It includes tables for vowels, consonants, and consonant clusters, detailing both independent and dependent forms. This scheme is designed to simplify the typing process by using Latin alphabet keys, with a preference for lowercase, uppercase, and ALT-GR keys. The document also includes special notes on key functions and provides an implementation link for practical use. This scheme aims to facilitate efficient and accurate Sinhala text input for users familiar with the Latin keyboard layout.
 
 ## Vowels
